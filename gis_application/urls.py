@@ -21,5 +21,6 @@ import maps.views
 urlpatterns = [
     path("maps/", include("maps.urls")),
     path('admin/', admin.site.urls),
-    path("", maps.views.index)
+    path("", maps.views.index),
+    path("testing/", maps.views.testing)
 ]
